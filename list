@@ -1,0 +1,30 @@
+ <ul >
+            <li><a herf="#">StayAtHome -Education</a></li>
+            <li><a herf="#">thinkbell labs -Education</a></li>
+            <li><a herf="#">Luma world - Education</a></li>
+            <li><a herf="#">Swadhika -Food</a></li>
+            <li><a herf="#">Dum Durrust -Food</a></li>
+            <li><a herf="#">HungerBox -Food</a></li> 
+            <li><a herf="#">OctneAI -Tech</a></li>
+            <li><a herf="#">Phantom -Tech</a></li>
+            <li><a herf="#">MoonPay -Tech</a></li>
+          </ul>
+          <button class="search">
+            <img  class="search-icon" src="images/search.svg">
+          </button>
+          <input class="search-bar" type="text" id="input" placeholder="search here...">
+           <div class="result-box">
+           </div>
+        </div>
+        <button onclick=" subscribe()
+    " class="js-button">subscribe</button>
+    <script>
+    function subscribe() {
+      let buttonElement = document.querySelector('.js-button');
+        if(buttonElement.innerText === 'subscribe') {
+          buttonElement.innerText = 'subscribed';
+        }
+        else {
+          buttonElement.innerText = 'subscribe';
+        }
+     }
